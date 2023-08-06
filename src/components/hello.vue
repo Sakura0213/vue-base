@@ -2,7 +2,7 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <button @click="getData()">test axios 请求数据</button>
+    <el-button @click="getData()">test axios 请求数据</el-button>
     <p>这是请求到的数据{{testData.list}}</p>
   </div>
 </template>
