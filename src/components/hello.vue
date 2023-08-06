@@ -9,7 +9,7 @@
 <script>
 import { reactive } from 'vue'
 import API from "../plugins/axiosInstance"
-export default{
+export default{ 
     name:'About',
     setup(){
         //数据
@@ -25,8 +25,8 @@ export default{
             }).then((res)=>{
                 alert('请求成功!');
                 testData.list = res.data.dataList;
-            });
-        }
+            })
+        }      
         return{
             testData,
             getData,
