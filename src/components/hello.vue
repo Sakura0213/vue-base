@@ -15,7 +15,7 @@ export default{
         //数据
         const testData = reactive({
             list:[]
-        });
+        })
 
         //测试请求方法
         const getData = function(){

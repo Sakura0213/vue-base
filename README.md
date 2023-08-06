@@ -1,29 +1,28 @@
-# vue-base
+```shell
+//安装 nodejs
+node -v
+npm -v
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+//创建 vue 项目
+npm init vue@latest
+cd 创建的工程
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
+
+//安装yarn
+npm install -g yarn
+
+//安装axios
+yarn add axios
+ 
+//安装mockjs（模拟接口）
+npm install mockjs
+
+//安装element-plus
+yarn add element-plus
 ```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+
+
+
