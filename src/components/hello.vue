@@ -12,7 +12,7 @@ import API from "../plugins/axiosInstance"
 export default{ 
     name:'About',
     setup(){
-        //数据
+        //数据。
         const testData = reactive({
             list:[]
         })
