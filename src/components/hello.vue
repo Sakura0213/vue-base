@@ -1,6 +1,6 @@
 <!-- About.vue -->
 <template>
-  <div class="about">
+  <div >
     <h1>This is an about page</h1>
     <el-button @click="getData()">test axios 请求数据</el-button>
     <p>这是请求到的数据{{testData.list}}</p>
@@ -10,7 +10,6 @@
 import { reactive } from 'vue'
 import API from "../plugins/axiosInstance"
 export default{ 
-    name:'About',
     setup(){
         //数据。
         const testData = reactive({

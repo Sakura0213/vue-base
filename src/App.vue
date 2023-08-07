@@ -1,18 +1,23 @@
 <template>
-<hello />
+  <hello />
+  <jsstep />
+  <login />
 </template>
 
-<script >
-import hello from './components/hello.vue'
-export default{
-  data(){
-    return{
+<script>
+import hello from "./components/hello.vue";
+import jsstep from "./components/jsstep.vue";
+import login from "./components/login.vue";
 
-    }
+export default {
+  data() {
+    return {};
   },
   components: {
-    hello
-  }
-}
-</script>
+    hello,
+    jsstep,
+    login
+  },
+};
 
+</script>
