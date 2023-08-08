@@ -20,7 +20,13 @@ npm install mockjs
 
 //安装element-plus
 yarn add element-plus
+
+//安装 pnpm
+npm install pnpm -g
+
 ```
+
+
 
 
 
